@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>js all</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+</html>
+<body>
+	<script>
+	var num1=1;
+	var num2=2;
+	var a=num1+num2;
+	console.log(a);
+	</script>
+	
+	<script>
+		for(i=1; i<=10; i++){
+		if(i==7){
+			break;
+		}
+		console.log(i);
+		}
+	</script>
+	
+	<script>
+		for(i=1; i<=10; i++){
+		if(i==7){
+			continue;
+		}
+		console.log(i);
+		}
+	</script>
+	
+	<script>
+	var a=5;
+		while(a>=1){
+		console.log(a);
+		a--;
+		}
+	</script>
+	
+	<script>
+		var a=3;
+		do{
+		console.log(a);
+		a++;
+		}while(a<=15)
+	</script>
+	<!-- <script> -->
+		<!-- var cars=prompt("enter the cars"); -->
+		<!-- switch(cars){ -->
+			<!-- case "car1": -->
+			<!-- document.write("rolls royes"); -->
+			<!-- break; -->
+			<!-- case "car2": -->
+			<!-- document.write("shift"); -->
+			<!-- break; -->
+			<!-- default: -->
+			<!-- document.write("no"); -->
+			<!-- break; -->
+		<!-- } -->
+	<!-- </script> -->
+	<!-- <script> -->
+	  <!-- var num=prompt("enter the name"); -->
+	  <!-- if(num==1){ -->
+	  <!-- document.write("rajesh"); -->
+	  <!-- } -->
+	  <!-- else if(num==2){ -->
+	  <!-- document.write("rajesh1"); -->
+	  <!-- } -->
+	  <!-- else if(num==3){ -->
+	  <!-- document.write("rajesh2"); -->
+	  <!-- } -->
+	  <!-- else{ -->
+	  <!-- document.write("no"); -->
+	  <!-- } -->
+	<!-- </script> -->
+	
+	<!-- <script> -->
+			
+	<!-- function num(){ -->
+	<!-- let num1=15, num2=15; -->
+	<!-- let num3= num1+num2; -->
+	<!-- document.write(num3); -->
+	<!-- return num3; -->
+	<!-- } -->
+	
+	<!-- num(); -->
+	<!-- let num3=num1+num2; -->
+	<!-- document.write(num3); -->
+	
+	
+	<!-- </script> -->
+	
+	
+	<script>
+		let rajesh=[1,2,3,4,5];
+		for(i=0; i<rajesh.length; i++){
+			if(rajesh[i]%2==0){
+			document.write("even");
+			}	
+			else{
+			document.write("odd");
+			}
+			document.write(rajesh[i],"<br>");
+			
+		}
+	</script>
+	
+	<script>
+	
+		setTimeout(function(){
+			document.write("rajesh");
+		},5000);
+	</script>
+	
+	<script>
+		let count=0;
+		let id=setInterval(function(){
+			count++;
+			if(count>10){
+			clearInterval(id);
+			}
+			document.write("rajesh","<br>");
+		},2000);
+	</script>
+</body>
